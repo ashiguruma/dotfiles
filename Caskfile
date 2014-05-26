@@ -22,3 +22,10 @@ cask install transmission 2> /dev/null
 cask install ukelele 2> /dev/null
 cask install virtualbox 2> /dev/null
 cask install vlc 2> /dev/null
+cask install alfred 2> /dev/null
+cask install evernote 2> /dev/null
+cask install hazel 2> /dev/null
+cask install spotify 2> /dev/null
+
+# Add Caskroom to Alfred search paths
+cask alfred 2> /dev/null
