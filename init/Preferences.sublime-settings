@@ -24,6 +24,7 @@
 	],
 	"font_size": 14,
 	"highlight_modified_tabs": true,
+	"bold_folder_labels": true,
 	"hot_exit": false,
 	"line_padding_bottom": 6,
 	"match_brackets": true,
