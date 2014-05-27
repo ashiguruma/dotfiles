@@ -32,8 +32,10 @@ install homebrew/dupes/grep
 install ack
 install foremost
 install git
+install git-extras
 install hashpump
 install imagemagick --with-webp
+install ffmpeg
 #install lynx
 install nmap
 install node # This installs `npm` too using the recommended installation method
