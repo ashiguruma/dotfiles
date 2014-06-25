@@ -25,4 +25,4 @@ cask install hazel 2> /dev/null
 cask install spotify 2> /dev/null
 
 # Add Caskroom to Alfred search paths
-cask alfred 2> /dev/null
+cask alfred link 2> /dev/null
