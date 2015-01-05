@@ -94,3 +94,6 @@ brew install node
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Hide the brew.sh file from Finder
+chflags hidden ~/brew.sh
