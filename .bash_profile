@@ -1,5 +1,6 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:/usr/local/bin:$PATH";
+export PATH="$(brew --prefix coreutils)/libexec/gnubin";
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -46,11 +47,6 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
-
-# Docker Machine Shell
-if [ ! `docker-machine status default` = "Running" ]; then
-	eval "$(docker-machine env default)"
-fi
 
 # Source Node Version Manager
 export NVM_DIR="$HOME/.nvm"
