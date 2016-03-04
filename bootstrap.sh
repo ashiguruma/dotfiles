@@ -7,7 +7,7 @@ git pull origin master;
 function doIt() {
 	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
 		--exclude "README.md" --exclude "LICENSE-MIT.txt" -avh --no-perms . ~;
-	chflags hidden ~/Brewfile ~/Caskfile ~/init ~/bin;
+	chflags hidden ~/init ~/bin;
 	source ~/.bash_profile;
 }
 
