@@ -13,10 +13,16 @@
     di = !"d() { git diff --patch-with-stat HEAD~$1; }; git diff-index --quiet HEAD -- || clear; d"
 
     # Show diff using current diff tool
-    dd = !"git difftool"
+    dt = !"git difftool"
 
     # Show log with list of changed files
     wc = whatchanged
+
+    # Show log for commits yet to be pushed to remote
+    unpushed = "!git log origin/\"$(git symbolic-ref --short HEAD)\"..HEAD"
+
+    # Show diff for commits yet to be pushed to remote
+    unpusheddiff = "!git diff origin/\"$(git symbolic-ref --short HEAD)\"..HEAD"
 
     # Pull in remote changes for the current repository and all its submodules
     p = !"git pull; git submodule foreach git pull origin master"
