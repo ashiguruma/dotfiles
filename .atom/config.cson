@@ -1,0 +1,20 @@
+"*":
+  core:
+    themes: [
+      "one-dark-ui"
+      "duotone-dark-syntax"
+    ]
+  editor:
+    backUpBeforeSaving: true
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "ec1d6787-a6f7-649d-5765-47141aa31798"
+  linter: {}
+  "todo-show":
+    sortAscending: false
+    sortBy: "Type"
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
