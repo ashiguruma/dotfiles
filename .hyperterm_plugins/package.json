@@ -9,6 +9,7 @@
   "dependencies": {
     "hyperterm-atom-dark": "latest",
     "hyperterm-title": "latest",
-    "hypercwd": "latest"
+    "hypercwd": "latest",
+    "hyperterm-tabs": "latest"
   }
 }

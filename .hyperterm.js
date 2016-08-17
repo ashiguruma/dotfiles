@@ -71,7 +71,8 @@ module.exports = {
   plugins: [
     'hyperterm-atom-dark',
     'hyperterm-title',
-    'hypercwd'
+    'hypercwd',
+    'hyperterm-tabs'
   ],
 
   // in development, you can create a directory under
